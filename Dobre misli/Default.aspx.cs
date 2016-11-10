@@ -20,7 +20,7 @@ namespace Dobre_misli
             misli.Text = "";
 
             foreach (string misel in misli_list) {
-              misli.Text += '"' + misel + '"<br>';
+              misli.Control.Add('"' + misel + '"<br>');
             }
           }
 
